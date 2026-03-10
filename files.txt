@@ -1,0 +1,15 @@
+echo src/main/java/com/puppycrawl/tools/checkstyle/checks/RegexpCheck.java > files.txt
+echo src/main/java/com/puppycrawl/tools/checkstyle/meta/JavadocMetadataScraperUtil.java >> files.txt
+echo src/main/java/com/puppycrawl/tools/checkstyle/site/SiteUtil.java >> files.txt
+echo src/main/resources/com/puppycrawl/tools/checkstyle/meta/checks/coding/SimplifyBooleanExpressionCheck.xml >> files.txt
+echo src/main/resources/com/puppycrawl/tools/checkstyle/meta/checks/coding/UseEnchancedSwitchCheck.xml >> files.txt
+echo src/it/java/org/checkstyle/supressionxpathfilter/blocks/XpathRegressionsEmotyBlockTest.java >> files.txt
+echo src/it/java/org/checkstyle/supressionxpathfilter/coding/XpathRegressionDeafultComesLastTest.java >> files.txt
+echo src/it/java/org/checkstyle/supressionxpathfilter/coding/XpathRegressionEqualsAvoidNullTest.java >> files.txt
+echo src/it/resources/org/checkstyle/supressionxpathfilter/blocks/emptyblock/InputXpathEmptyBlockTryCatch.java >> files.txt
+echo src/it/resources/org/checkstyle/supressionxpathfilter/coding/defaultcomeslast/InputXpathDefaultComesLastSwitchInInterface.java>> files.txt
+echo src/it/resources/org/checkstyle/supressionxpathfilter/coding/equalsavoidnull/InputXpathEqualAvoidNullField.java >> files.txt
+echo .ci/validation.sh >> files.txt
+echo pom.xml >> files.txt
+
+
